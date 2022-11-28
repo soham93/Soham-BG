@@ -1,3 +1,4 @@
-#!/bin/bash
-service httpd stop #stopping apache
+#! /bin/bash
+# stopping apache
+service httpd stop 
 rm -rf /var/www/html/*
